@@ -1,0 +1,22 @@
+{
+  "name": "front-end-skills",
+  "version": "1.0.0",
+  "description": "An app that uses the Google maps and Instagram APIs to plot images from instagram onto an interactive google map.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohanarasa/front-end-skills.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohanarasa/front-end-skills/issues"
+  },
+  "homepage": "https://github.com/mohanarasa/front-end-skills#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

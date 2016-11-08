@@ -1,9 +1,36 @@
-h1 {
-  font-family: 'Lobster', cursive;
-  color: maroon;
-  margin-left: 40px; }
-
 body {
-  background-color: linen; }
+  font: 100% Lobster, cursive;
+  color: black;
+  background-image: url(https://images.unsplash.com/photo-1432256851563-20155d0b7a39?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=cb3e1c6314fa6f7d7c18a6315e60b2bd); }
+
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out; }
+  input[type=text]:focus {
+    width: 100%; }
+
+div.img {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px; }
+  div.img:hover {
+    border: 1px solid #777; }
+  div.img img {
+    width: 100%;
+    height: auto; }
+div.desc {
+  padding: 15px;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
